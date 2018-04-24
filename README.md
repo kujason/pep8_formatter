@@ -1,6 +1,12 @@
 ## PEP8 Formatting Scripts
 
-#### Usage
+### Installation
+Get the package if not already installed
+```
+sudo pip install autopep8
+```
+
+### Usage
 `autopep8_file.sh` reformats a single file
 ```
 autopep8_file.sh <file_path.py>
