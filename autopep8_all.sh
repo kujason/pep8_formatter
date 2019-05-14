@@ -7,4 +7,5 @@ cd "$(dirname "$0")"
 echo "Reformatting all .py files in $(pwd)"
 
 find ./ -name '*.py' -exec \
-autopep8 --aggressive --aggressive --in-place '{}' \;
+autopep8 --aggressive --aggressive --in-place --max-line-length 100 '{}' \;
+
